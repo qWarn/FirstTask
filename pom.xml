@@ -12,5 +12,23 @@
         <maven.compiler.source>22</maven.compiler.source>
         <maven.compiler.target>22</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <commons-lang.version>3.14.0</commons-lang.version>
+        <!-- https://mvnrepository.com/artifact/org.jgrapht/jgrapht-core -->
+        <jgrapht-core.version>1.5.2</jgrapht-core.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jgrapht</groupId>
+            <artifactId>jgrapht-core</artifactId>
+            <version>${jgrapht-core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang.version}</version>
+        </dependency>
+    </dependencies>
 </project>
